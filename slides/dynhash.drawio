@@ -1,1 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2020-11-16T11:42:18.049Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="HsJU-uMhuViw_l1rEACd" version="13.9.8" type="device"><diagram id="CHvspS9XKxJ3Fz_utAXS" name="Page-1">jZPNkoIwDICfhqMzCIp4FHV3L3twPOy50gidLQRLEdyn3xTK3zrO7CWkX9IkJKnj77PmXbEi/UQO0vFc3jj+wfG80A1JGvDowGrtdyBRgndoOYKz+AELXUsrwaGcOWpEqUUxhzHmOcR6xphSWM/drijnWQuWwBM4x0w+0y/BdWrpMtiOhg8QSWpTh96mM2Ssd7Z/UqaMYz1B/tHx9wpRd1rW7EGa3vV96e69vbAOhSnI9X8upKdb0Xjxbe1eqtNpcVlwnS9slDuTlf1hxwskxYuuSGGpav2wrQhuFfaGRdkOakcOvlc0o5G0pP0eXGe7MzI6tjKayLCVm4ke9lmp/C6xDdN1bqjB09AYnupMEliSWmqF37BHiYpIjjmYGoWUfxCTIsnpGFO7gHh0B6UFDXpnDZng3KSJ6lRoOBcsNjlr2mpiCqucg+mkO5RlAkDzchrLYcb0NgAz0OpBLv0F366FfReBPdbjkq0sSifr1S8Ts2udDIHHyZNih98fxyVrbZOX6h9/AQ==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-16T12:21:03.607Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="E7YQDYJi-eYPJYRXpHl7" version="13.9.9" type="github">
+  <diagram id="CHvspS9XKxJ3Fz_utAXS" name="Page-1">
+    <mxGraphModel dx="1414" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7nNzni78waX5YQ49JX8P-1" value="&lt;font color=&quot;#006633&quot; face=&quot;garamond&quot;&gt;&lt;span style=&quot;font-size: 36px&quot;&gt;&lt;b&gt;Коллизии при хэшировании&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="920" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7nNzni78waX5YQ49JX8P-2" value="&lt;span style=&quot;font-size: 28px&quot;&gt;Простейшие способы исключения коллизии:&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="600" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7nNzni78waX5YQ49JX8P-3" value="&lt;span style=&quot;font-size: 28px&quot;&gt;нет доступа за О(1)&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7nNzni78waX5YQ49JX8P-4" value="&lt;span style=&quot;font-size: 18px&quot;&gt;Содержимое каталога можно изменять только неявно&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="210" y="350" width="470" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7nNzni78waX5YQ49JX8P-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="100" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7nNzni78waX5YQ49JX8P-6" value="" style="endArrow=none;html=1;strokeWidth=10;strokeColor=#FF0000;jumpStyle=arc;" edge="1" parent="7nNzni78waX5YQ49JX8P-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="80" as="sourcePoint" />
+            <mxPoint x="40" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="80" />
+              <mxPoint x="40" />
+              <mxPoint x="80" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nNzni78waX5YQ49JX8P-7" value="&lt;font style=&quot;font-size: 63px&quot;&gt;!&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="7nNzni78waX5YQ49JX8P-5">
+          <mxGeometry x="20" y="40" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7nNzni78waX5YQ49JX8P-8" value="&lt;span style=&quot;font-size: 28px&quot;&gt;есть возможность задействовать все адресное пространство&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="820" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
