@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-22T09:27:59.707Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="elvUP1XrU1oKnNVIfcpR" version="13.10.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-11-22T09:33:47.566Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="T0lD5vBEc0BQa9F27AXV" version="13.10.0" type="github" pages="6">
   <diagram id="CHvspS9XKxJ3Fz_utAXS" name="p01">
     <mxGraphModel dx="1414" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -239,8 +239,8 @@
         <mxCell id="hU8RLNSOkOWT8632JKo0-4" value="&lt;span style=&quot;font-size: 28px&quot;&gt;Необходимо перераспределить данные в соответствии с k+1 младшими битами&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="hU8RLNSOkOWT8632JKo0-1">
           <mxGeometry x="80" y="200" width="1070" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="hU8RLNSOkOWT8632JKo0-5" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;Перераспределение 2k ячеек приведет к ожиданию&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=4" vertex="1" parent="hU8RLNSOkOWT8632JKo0-1">
-          <mxGeometry x="200" y="730" width="590" height="20" as="geometry" />
+        <mxCell id="hU8RLNSOkOWT8632JKo0-5" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;Перераспределение 2k ячеек приведет к задержке при добавлении&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=4" vertex="1" parent="hU8RLNSOkOWT8632JKo0-1">
+          <mxGeometry x="190" y="730" width="770" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hU8RLNSOkOWT8632JKo0-6" value="" style="group" vertex="1" connectable="0" parent="hU8RLNSOkOWT8632JKo0-1">
           <mxGeometry x="75" y="700" width="80" height="80" as="geometry" />
